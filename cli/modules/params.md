@@ -42,6 +42,9 @@ Among them, the parameters available for query for each subspace are as follows:
 | key | description | default |
 | :--- | :--- | :--- |
 | `Inflation` | Token issuance frequency | ?? |
+| `InflationRateChange` | Inflation Adjustment Change % | "0.130000000000000000" |
+| `InflationMax` | Dynamic Inflation Maximum | "0.200000000000000000" |
+| `InflationMin` | Dynamic Inflation Minimum | "0.070000000000000000" |
 | `MintDenom` | Denom of the token mintable | ujuno |
 | `BlocksPerYear` | Blocks produced each year | 6311520 |
 
